@@ -1,3 +1,5 @@
+import { AnalyzingImage } from "@/components/analyse";
+
 export default function Home() {
   return (
     <div className=" space-y-4 mx-auto text-sm max-w-145.5 h-screen px-4 pt-20 pb-10">
@@ -21,6 +23,7 @@ export default function Home() {
           <p>You can find me on X, Instagram, or reach me via email.</p>
         </div>
       </div>
+      <AnalyzingImage />
     </div>
   );
 }
